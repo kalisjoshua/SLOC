@@ -1,0 +1,61 @@
+div.sloc {
+    background: #EDEDED;
+    border: 2px solid #ABABAB;
+    clear: both;
+    float: left;
+    margin: 1em 0px;
+    overflow: hidden;
+    padding: 3px 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    }
+    div.sloc div.gutter
+    ,div.sloc textarea {
+        font-family: Courier, monospace;
+        font-size: 14px;
+        line-height: 14px;
+        }
+    div.sloc div.gutter {
+        color: #999999;
+        left: 0px;
+        padding: 4px 0px;
+        position: absolute;
+        text-align: right;
+        top: 0px;
+        white-space: pre;
+        width: 2.5em;
+        z-index: 1;
+        }
+    div.sloc div.gutter:hover {
+        color: #000000;
+        cursor: vertical-text;
+        }
+    div.sloc textarea {
+        background: transparent;
+        border: 0px;
+        border-left: 3px solid #CDCDCD;
+        margin: 0px;
+        margin-left: 3em;
+        padding: 0px 5px;
+        position: relative;
+        right: 0px;
+        top: 0px;
+        z-index: 1000;
+        }
+    div.sloc.error
+    ,div.sloc.error textarea {
+        border-color: red;
+        }
+    div.sloc.valid
+    ,div.sloc.valid textarea {
+        border-color: green;
+        }
+    div.sloc.warn
+    ,div.sloc.warn textarea {
+        border-color: orange;
+        }
+    div.sloc.focus
+    ,div.sloc.focus textarea {
+        border-color: blue;
+        }
