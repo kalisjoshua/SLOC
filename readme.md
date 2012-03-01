@@ -2,4 +2,4 @@
 
 SLOC - single linnes of code - is a jQuery plugin for textareas that will be used for code editing.
 
-[demo](http://kalisjoshua.github.com/SLOC)
+[simple demo](http://kalisjoshua.github.com/SLOC/)
